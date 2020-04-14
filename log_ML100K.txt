@@ -1,0 +1,76 @@
+[Setting] device: cuda
+[Setting] processes for evaluation 4
+[Setting] latent_dim: 128
+[Setting] att_size: 128
+[Setting] learning_rate: 0.001000
+[Setting] regularization: 0.000100
+[Setting] train_batch_size: 256
+[Setting] test_batch_size: 32
+[Setting] negative_num: 4
+Read data from /mnt/hli_test/MCRec_PyTorch/data/ML100K/
+node type {'u': 0, 'm': 1, 'g': 2}
+max_user_id 943, max_item_id 1682, train ratings 80467
+test ratings 943, test negative rating lists 943, maximum test item number for one rating 1682
+load data 39.29 seconds
+Init: Item Pred: P@1 = 0.1116, R@1 = 0.0126, NDCG@1 = 0.1116, MRR@1 = 0.0126
+Init: Item Pred: P@5 = 0.1339, R@5 = 0.0777, NDCG@5 = 0.2932, MRR@5 = 0.0330
+Init: Item Pred: P@10 = 0.1388, R@10 = 0.1497, NDCG@10 = 0.3761, MRR@10 = 0.0424
+Evaluation Time: 158.95 seconds
+Epoch 0 Steps 315 Loss 0.425311 [33.40 seconds]
+Epoch 1 Steps 315 Loss 0.370720 [32.96 seconds]
+Epoch 2 Steps 315 Loss 0.363334 [33.29 seconds]
+Epoch 3 Steps 315 Loss 0.344709 [32.71 seconds]
+Epoch 4 Steps 315 Loss 0.333809 [32.94 seconds]
+Item Pred: P@1 = 0.4066, R@1 = 0.0479, NDCG@1 = 0.4066, MRR@1 = 0.0479
+Item Pred: P@5 = 0.3478, R@5 = 0.2076, NDCG@5 = 0.6384, MRR@5 = 0.1011
+Item Pred: P@10 = 0.3025, R@10 = 0.3362, NDCG@10 = 0.6637, MRR@10 = 0.1180
+Evaluation Time: 157.51 seconds
+Epoch 5 Steps 315 Loss 0.324928 [33.88 seconds]
+Epoch 6 Steps 315 Loss 0.315295 [33.06 seconds]
+Epoch 7 Steps 315 Loss 0.308141 [33.26 seconds]
+Epoch 8 Steps 315 Loss 0.302424 [33.38 seconds]
+Epoch 9 Steps 315 Loss 0.297601 [33.02 seconds]
+Item Pred: P@1 = 0.4617, R@1 = 0.0575, NDCG@1 = 0.4617, MRR@1 = 0.0575
+Item Pred: P@5 = 0.3982, R@5 = 0.2403, NDCG@5 = 0.6955, MRR@5 = 0.1181
+Item Pred: P@10 = 0.3452, R@10 = 0.3827, NDCG@10 = 0.7064, MRR@10 = 0.1371
+Evaluation Time: 157.56 seconds
+Epoch 10 Steps 315 Loss 0.292068 [33.51 seconds]
+Epoch 11 Steps 315 Loss 0.287803 [34.14 seconds]
+Epoch 12 Steps 315 Loss 0.284380 [33.55 seconds]
+Epoch 13 Steps 315 Loss 0.281021 [32.93 seconds]
+Epoch 14 Steps 315 Loss 0.276285 [33.21 seconds]
+Item Pred: P@1 = 0.4587, R@1 = 0.0570, NDCG@1 = 0.4587, MRR@1 = 0.0570
+Item Pred: P@5 = 0.4188, R@5 = 0.2497, NDCG@5 = 0.7063, MRR@5 = 0.1209
+Item Pred: P@10 = 0.3535, R@10 = 0.3905, NDCG@10 = 0.7120, MRR@10 = 0.1398
+Evaluation Time: 153.69 seconds
+Epoch 15 Steps 315 Loss 0.273451 [34.70 seconds]
+Epoch 16 Steps 315 Loss 0.269622 [34.83 seconds]
+Epoch 17 Steps 315 Loss 0.265934 [43.59 seconds]
+Epoch 18 Steps 315 Loss 0.263581 [42.02 seconds]
+Epoch 19 Steps 315 Loss 0.259978 [44.77 seconds]
+Item Pred: P@1 = 0.4865, R@1 = 0.0612, NDCG@1 = 0.4865, MRR@1 = 0.0612
+Item Pred: P@5 = 0.4268, R@5 = 0.2538, NDCG@5 = 0.7173, MRR@5 = 0.1251
+Item Pred: P@10 = 0.3565, R@10 = 0.3950, NDCG@10 = 0.7239, MRR@10 = 0.1437
+Evaluation Time: 175.70 seconds
+Epoch 20 Steps 315 Loss 0.256788 [38.42 seconds]
+Epoch 21 Steps 315 Loss 0.254780 [35.70 seconds]
+Epoch 22 Steps 315 Loss 0.251443 [39.05 seconds]
+Epoch 23 Steps 315 Loss 0.249680 [44.67 seconds]
+Epoch 24 Steps 315 Loss 0.245258 [46.24 seconds]
+Item Pred: P@1 = 0.4679, R@1 = 0.0575, NDCG@1 = 0.4679, MRR@1 = 0.0575
+Item Pred: P@5 = 0.4207, R@5 = 0.2545, NDCG@5 = 0.7061, MRR@5 = 0.1226
+Item Pred: P@10 = 0.3526, R@10 = 0.3923, NDCG@10 = 0.7162, MRR@10 = 0.1408
+Evaluation Time: 173.22 seconds
+Epoch 25 Steps 315 Loss 0.243347 [45.33 seconds]
+Epoch 26 Steps 315 Loss 0.238812 [36.41 seconds]
+Epoch 27 Steps 315 Loss 0.237272 [33.40 seconds]
+Epoch 28 Steps 315 Loss 0.234170 [41.35 seconds]
+Epoch 29 Steps 315 Loss 0.231623 [44.57 seconds]
+Item Pred: P@1 = 0.4719, R@1 = 0.0582, NDCG@1 = 0.4719, MRR@1 = 0.0582
+Item Pred: P@5 = 0.4237, R@5 = 0.2568, NDCG@5 = 0.7083, MRR@5 = 0.1235
+Item Pred: P@10 = 0.3538, R@10 = 0.3975, NDCG@10 = 0.7141, MRR@10 = 0.1423
+Evaluation Time: 173.71 seconds
+Total Time 2297.22 seconds, Train Time 1107.57 seconds, Evaluation Time 1150.35 seconds
+Best Results for Item Pred: P@1 = 0.4865, R@1 = 0.0612, NDCG@1 = 0.4865, MRR@1 = 0.0612
+Best Results for Item Pred: P@5 = 0.4268, R@5 = 0.2568, NDCG@5 = 0.7173, MRR@5 = 0.1251
+Best Results for Item Pred: P@10 = 0.3565, R@10 = 0.3975, NDCG@10 = 0.7239, MRR@10 = 0.1437
